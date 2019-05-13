@@ -10,6 +10,15 @@ public class Guerrier {
     private int bouclier;
     private Arme arme;
 
+    public String toString() {
+        return "nom : " + this.nom  +
+                "\n image : " + this.image +
+                "\n vie :" + this.vie +
+                "\nattaque :" + this.attaque+
+                "\nattaque :" + this.attaque+
+                "\n nomarme:" + this.arme.getName()+
+                " nomarme:" + this.arme.getNiveauattaque();
+    }
 
     public Guerrier(){}
 

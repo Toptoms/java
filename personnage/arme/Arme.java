@@ -5,7 +5,6 @@ public class Arme {
     int niveauattaque;
 
 
-
 public Arme(String nom, int niveauattaque) {
     this.nom = nom;
     this.niveauattaque = niveauattaque;
