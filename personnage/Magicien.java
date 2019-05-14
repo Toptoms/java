@@ -1,5 +1,5 @@
 package personnage;
 
-public class Magicien {
+public class Magicien extends Personnage {
 
 }
