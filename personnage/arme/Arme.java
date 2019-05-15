@@ -17,4 +17,11 @@ public class Arme {
     public int getNiveauattaque() {
         return niveauattaque;
     }
+
+    public void setNom(String nom) {
+        this.nom = nom;
+    }
+    public void setNiveauattaque(int niveauattaque) {
+        this.niveauattaque = niveauattaque;
+    }
 }
