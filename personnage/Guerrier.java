@@ -33,9 +33,9 @@ public class Guerrier extends Personnage {
 
     public String toString() {
         return super.toString() +
-                "\nnom du bouclier : " + this.bouclier +
-                "\nnom arme : " + this.arme.getName() +
-                "\nnineau arme : " + this.arme.getNiveauattaque();
+                "\n5 nom du bouclier : " + this.bouclier +
+                "\n6 nom arme : " + this.arme.getName() +
+                "\n7 nineau arme : " + this.arme.getNiveauattaque();
 
     }
 }

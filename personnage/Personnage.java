@@ -51,10 +51,10 @@ public abstract class Personnage {
 
 
     public String toString() {
-        return "nom : " + this.nom +
-                "\nimage : " + this.image +
-                "\nvie : " + this.vie +
-                "\nattaque : " + this.attaque;
+        return "1 nom : " + this.nom +
+                "\n2 image : " + this.image +
+                "\n3 vie : " + this.vie +
+                "\n4 attaque : " + this.attaque;
 
     }
 }
